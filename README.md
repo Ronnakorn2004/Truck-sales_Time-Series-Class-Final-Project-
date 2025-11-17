@@ -115,7 +115,7 @@ Even without many external features, SARIMAX helps benchmark performance and mod
 
 It also provides interpretable components: trend, seasonality, holiday effects.
 
-### 5) LSTMs Model
+### 4.5) LSTMs Model
 
 A deep learning model designed specifically for sequential data.
 
@@ -135,3 +135,42 @@ LSTM excels at capturing non-linear and long-range dependencies in time series.
 
 ---
 
+## 📊 5. Model Evaluation
+
+To compare all models fairly, I evaluated them using standard error metrics:
+
+- **RMSE** (Root Mean Squared Error)
+
+- **MAE** (Mean Absolute Error)
+
+- **MAPE** (Mean Absolute Percentage Error)
+
+This allowed me to identify which model best fits the data and offers the most reliable forecast.
+
+---
+
+## 🧾 6. Business Insights from the Forecasts
+
+**The final forecasting results provided valuable insights:**
+
+- Whether truck sales are trending upward or downward
+
+- Expected peak and low sales periods
+
+- How seasonality affects the business cycle
+
+- Recommended inventory and production strategies
+
+- Whether statistical or deep-learning models perform better for this data
+
+**These insights help guide:**
+
+- supply chain planning
+
+- budgeting
+
+- sales strategy
+
+- marketing activities
+
+- operational decision-making
