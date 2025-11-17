@@ -13,7 +13,7 @@ The project began with a simple but important business question:
 
 **“How will truck sales behave in the future, and how can we forecast them accurately?”**
 
-To answer that, I loaded a dataset containing historical truck sales and examined:
+**To answer that, I loaded a dataset containing historical truck sales and examined:**
 
 - Long-term sales trends
 
@@ -31,7 +31,7 @@ This initial analysis guided which forecasting models would be most appropriate.
 
 ## 🔍 2. Exploratory Data Analysis (EDA)
 
-Using Python in a Jupyter/Colab Notebook, I performed a detailed time-series exploration:
+**Using Python in a Jupyter/Colab Notebook, I performed a detailed time-series exploration:**
 
 - Visualized the sales time series
 
@@ -49,7 +49,7 @@ The EDA stage helped reveal the underlying structure of the time series and prep
 
 ## 🧼 3. Data Cleaning & Feature Engineering
 
-Before modeling, I cleaned and transformed the dataset to ensure accuracy:
+**Before modeling, I cleaned and transformed the dataset to ensure accuracy:**
 
 ✔ Time Series Formatting
 
@@ -65,7 +65,7 @@ Before modeling, I cleaned and transformed the dataset to ensure accuracy:
 
 ✔ Feature Engineering
 
-Created additional time-based features to support both statistical and deep-learning models:
+**Created additional time-based features to support both statistical and deep-learning models:**
 
 - Year
 
