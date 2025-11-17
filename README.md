@@ -174,3 +174,21 @@ This allowed me to identify which model best fits the data and offers the most r
 - marketing activities
 
 - operational decision-making
+
+---
+
+## 🔧 7. Tools & Technologies Used
+
+**Python(Google Colab)**
+
+- Pandas, NumPy
+
+- Matplotlib, Seaborn
+
+- Statsmodels (ARIMA, SARIMA, SARIMAX)
+
+- Prophet
+
+- TensorFlow / Keras (LSTM)
+
+---
