@@ -78,3 +78,60 @@ The EDA stage helped reveal the underlying structure of the time series and prep
 - Moving averages (rolling windows)
 
 These features assist models in recognizing patterns that aren’t immediately visible.
+
+---
+
+## 🤖 4. Forecasting Models Used
+
+I implemented five forecasting approaches—each providing a different perspective on the data:
+
+### 4.1) ARIMA Model
+
+A classic statistical model for non-seasonal time series.
+
+I experimented with different (p, d, q) values to find the best fit based on AIC and error scores.
+
+### 4.2) SARIMA Model
+
+An extension of ARIMA designed for seasonal data.
+
+This model captures monthly or quarterly seasonal patterns using seasonal parameters (P, D, Q, s).
+
+### 4.3) SARIMAX Model
+
+A variation of SARIMA that supports external regressors (exogenous variables).
+
+Even without many external features, SARIMAX helps benchmark performance and model stability.
+
+### 4.4) Prophet Model
+
+**Prophet is effective for data with:**
+
+- strong seasonality
+
+- trend changes
+
+- weekly/monthly/yearly cycles
+
+It also provides interpretable components: trend, seasonality, holiday effects.
+
+### 5) LSTMs Model
+
+A deep learning model designed specifically for sequential data.
+
+**Steps included:**
+
+- Scaling the data
+
+- Reshaping into 3D tensors (samples, timesteps, features)
+
+- Building LSTM layers followed by dense output
+
+- Training and tuning the model
+
+- Forecasting multiple steps ahead
+
+LSTM excels at capturing non-linear and long-range dependencies in time series.
+
+---
+
